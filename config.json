@@ -1,7 +1,7 @@
 {
-  "TOKEN": "NzA1MTM0MzIyNjg3OTM0NjI0.XqnRgw.sQSN_fFS9U9WMg_VxcpeZgIZT00",
-  "YOUTUBE_API_KEY": "AIzaSyDuqMjXWJvUVhQ778RoXxb7Hjyxzt0L7v8",
-  "SOUNDCLOUD_CLIENT_ID": "",
+  "TOKEN": "process.env.token",
+  "YOUTUBE_API_KEY": "process.env.youtube",
+  "SOUNDCLOUD_CLIENT_ID": "https://api-v2.soundcloud.com/me/play-history/tracks?client_id={CLIENT ID IS HERE}&limit=25&offset=0&linked_partitioning=1&app_version=1590494738&app_locale=en",
   "MAX_PLAYLIST_SIZE": 10,
   "PREFIX": "/",
   "PRUNING": false
